@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de Competições</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    
+    <!-- Nome da Equipe -->
+    <item>
+     <widget class="QLineEdit" name="inputNomeEquipe">
+      <property name="placeholderText">
+       <string>Digite o nome da equipe</string>
+      </property>
+     </widget>
+    </item>
+    
+    <!-- Lista de Membros -->
+    <item>
+     <widget class="QTextEdit" name="inputMembros">
+      <property name="placeholderText">
+       <string>Digite os membros da equipe (um por linha)</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Botão Cadastrar Equipe -->
+    <item>
+     <widget class="QPushButton" name="btnCadastrarEquipe">
+      <property name="text">
+       <string>Cadastrar Equipe</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Botão Cadastrar Prova -->
+    <item>
+     <widget class="QPushButton" name="btnCadastrarProva">
+      <property name="text">
+       <string>Cadastrar Prova</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Botão Visualizar Resultados -->
+    <item>
+     <widget class="QPushButton" name="btnVisualizarResultados">
+      <property name="text">
+       <string>Visualizar Resultados</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
