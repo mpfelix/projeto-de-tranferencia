@@ -3,11 +3,11 @@ import mysql.connector
 class Banco:
     def __init__(self):
         self.conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="SUA_SENHA_AQUI",  # ajuste conforme seu MySQL
-        database="competicoes"
-    )
+            host="localhost",
+            user="root",
+            password="",  # coloque a senha do seu MySQL se existir
+            database="competicoes"
+        )
         self.cursor = self.conn.cursor()
 
     def criar_tabelas(self):

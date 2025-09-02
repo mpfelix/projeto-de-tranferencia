@@ -1,4 +1,4 @@
-# 🎓 Projeto de Competição de Equipes e Provas
+#  Projeto de Competição de Equipes e Provas
 
 Sistema desenvolvido em **Python (PyQt5 + MySQL)** para auxiliar na organização de competições entre equipes, permitindo cadastrar equipes, seus membros e provas, além de visualizar resultados.
 
